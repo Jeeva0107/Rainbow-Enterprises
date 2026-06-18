@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" width="200" height="240">
+  <g opacity="0.95">
+    <!-- Pouch Body (Kraft paper stand-up pouch mockup) -->
+    <path d="M40 30 L160 30 C165 30 170 35 167 45 L152 210 C150 220 140 225 100 225 C60 225 50 220 48 210 L33 45 C30 35 35 30 40 30 Z" fill="#D2B48C" stroke="#b08953" stroke-width="2" />
+    
+    <!-- Heat seal texture lines at top -->
+    <line x1="42" y1="36" x2="158" y2="36" stroke="#b08953" stroke-width="1" stroke-dasharray="2 2" />
+    <line x1="42" y1="40" x2="158" y2="40" stroke="#b08953" stroke-width="1" />
+    
+    <!-- Tear notches -->
+    <path d="M33 45 L38 47 L33 49" fill="none" stroke="#b08953" stroke-width="1.5" />
+    <path d="M167 45 L162 47 L167 49" fill="none" stroke="#b08953" stroke-width="1.5" />
+    
+    <!-- Pouch bottom fold details -->
+    <path d="M48 210 Q100 220 152 210" fill="none" stroke="#a07844" stroke-width="1.5" />
+    
+    <!-- Label panel -->
+    <rect x="52" y="70" width="96" height="110" rx="4" fill="#F4EFE4" stroke="#1e3b26" stroke-width="1" />
+    <text x="100" y="92" font-family="Georgia, serif" font-size="9" font-weight="bold" fill="#1e3b26" text-anchor="middle" letter-spacing="1">rootsveyr</text>
+    
+    <!-- Decorative grains sketch -->
+    <path d="M90 115 Q100 105 110 115 M95 107 L93 102 M105 107 L107 102" fill="none" stroke="#b08953" stroke-width="1" />
+    
+    <text x="100" y="132" font-family="sans-serif" font-size="8" font-weight="black" fill="#1e3b26" text-anchor="middle">Foxtail Millet</text>
+    <text x="100" y="144" font-family="sans-serif" font-size="9" font-weight="black" fill="#b08953" text-anchor="middle">Grains</text>
+    <text x="100" y="160" font-family="sans-serif" font-size="6" font-weight="bold" fill="#1e3b26" text-anchor="middle">NUTRIENT-RICH</text>
+    <text x="100" y="171" font-family="sans-serif" font-size="6" font-weight="bold" fill="#1e3b26" text-anchor="middle">500G</text>
+  </g>
+</svg>

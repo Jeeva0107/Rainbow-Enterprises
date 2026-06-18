@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" width="200" height="120">
+  <g opacity="0.95">
+    <!-- Grains heaped inside the bowl -->
+    <path d="M42 62 Q100 20 158 62 Z" fill="#DAA520" stroke="#b08953" stroke-width="1" />
+    
+    <!-- Grain texture details -->
+    <circle cx="80" cy="45" r="2" fill="#FFE4B5" />
+    <circle cx="100" cy="40" r="2.5" fill="#FFE4B5" />
+    <circle cx="115" cy="48" r="2" fill="#FFE4B5" />
+    <circle cx="90" cy="52" r="2" fill="#FFE4B5" />
+    <circle cx="108" cy="55" r="2.5" fill="#FFE4B5" />
+    
+    <!-- Wooden Bowl Body -->
+    <path d="M30 60 C30 110 170 110 170 60 Z" fill="#8B5A2B" stroke="#664422" stroke-width="2" />
+    
+    <!-- Bowl interior shadow / rim -->
+    <ellipse cx="100" cy="60" rx="70" ry="10" fill="#704214" stroke="#664422" stroke-width="1.5" />
+    
+    <!-- Inner grains overlapping rim -->
+    <ellipse cx="100" cy="60" rx="66" ry="8" fill="#DAA520" />
+    
+    <!-- Highlights on wood -->
+    <path d="M45 85 C65 100 135 100 155 85" fill="none" stroke="#A0522D" stroke-width="3" stroke-dasharray="10 15" />
+  </g>
+</svg>

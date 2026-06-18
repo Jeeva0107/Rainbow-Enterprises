@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 400" width="200" height="400">
+  <!-- Transparent background bottle mockup -->
+  <g opacity="0.95">
+    <!-- Bottle glass shadow & body -->
+    <rect x="50" y="100" width="100" height="260" rx="20" fill="#E8D8A0" fill-opacity="0.3" stroke="#b08953" stroke-width="2" />
+    <path d="M70 100 L90 50 L110 50 L130 100 Z" fill="#E8D8A0" fill-opacity="0.3" stroke="#b08953" stroke-width="2" />
+    <rect x="90" y="30" width="20" height="20" rx="3" fill="#1e3b26" />
+    
+    <!-- Liquid inside -->
+    <rect x="55" y="120" width="90" height="230" rx="15" fill="#D4AF37" fill-opacity="0.8" />
+    <path d="M73 120 L90 70 L110 70 L127 120 Z" fill="#D4AF37" fill-opacity="0.8" />
+    
+    <!-- Highlights for glass look -->
+    <rect x="62" y="130" width="8" height="210" rx="4" fill="#FFFFFF" fill-opacity="0.3" />
+    
+    <!-- Label -->
+    <rect x="58" y="170" width="84" height="120" rx="5" fill="#F4EFE4" stroke="#1e3b26" stroke-width="1" />
+    <!-- Label Brand -->
+    <text x="100" y="195" font-family="Georgia, serif" font-size="9" font-weight="bold" fill="#1e3b26" text-anchor="middle" letter-spacing="1">rootsveyr</text>
+    <!-- Decorative branch -->
+    <path d="M90 215 Q100 210 110 215" fill="none" stroke="#b08953" stroke-width="1" />
+    <!-- Label Title -->
+    <text x="100" y="235" font-family="sans-serif" font-size="8" font-weight="bold" fill="#1e3b26" text-anchor="middle" letter-spacing="0.5">COLD-PRESSED</text>
+    <text x="100" y="247" font-family="sans-serif" font-size="9" font-weight="black" fill="#b08953" text-anchor="middle">Groundnut Oil</text>
+    <text x="100" y="270" font-family="sans-serif" font-size="7" font-weight="bold" fill="#1e3b26" text-anchor="middle">1 LITRE</text>
+  </g>
+</svg>

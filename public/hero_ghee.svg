@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <g opacity="0.95">
+    <!-- Jar base shadow & body -->
+    <rect x="40" y="50" width="120" height="130" rx="25" fill="#E8D8A0" fill-opacity="0.3" stroke="#b08953" stroke-width="2" />
+    <!-- Jar neck -->
+    <path d="M60 50 L140 50 L130 35 L70 35 Z" fill="#E8D8A0" fill-opacity="0.3" stroke="#b08953" stroke-width="1.5" />
+    <!-- Gold Lid -->
+    <rect x="62" y="22" width="76" height="16" rx="4" fill="#B38F5C" stroke="#b08953" stroke-width="1.5" />
+    
+    <!-- Ghee yellow color -->
+    <rect x="46" y="58" width="108" height="114" rx="20" fill="#FFD700" fill-opacity="0.75" />
+    <path d="M62 58 L138 58 L130 50 L70 50 Z" fill="#FFD700" fill-opacity="0.75" />
+    
+    <!-- Highlights -->
+    <rect x="54" y="65" width="10" height="100" rx="5" fill="#FFFFFF" fill-opacity="0.3" />
+    
+    <!-- Label -->
+    <rect x="48" y="80" width="104" height="70" rx="3" fill="#F4EFE4" stroke="#1e3b26" stroke-width="1" />
+    <text x="100" y="98" font-family="Georgia, serif" font-size="9" font-weight="bold" fill="#1e3b26" text-anchor="middle" letter-spacing="1">rootsveyr</text>
+    <text x="100" y="115" font-family="sans-serif" font-size="8" font-weight="black" fill="#b08953" text-anchor="middle">A2 Cow Ghee</text>
+    <text x="100" y="126" font-family="sans-serif" font-size="6" font-weight="bold" fill="#1e3b26" text-anchor="middle">BILONA METHOD</text>
+    <text x="100" y="139" font-family="sans-serif" font-size="6" font-weight="bold" fill="#1e3b26" text-anchor="middle">500ML</text>
+  </g>
+</svg>
