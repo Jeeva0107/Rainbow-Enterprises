@@ -208,7 +208,7 @@ for item in raw_products:
         weight_slug = slugify(weight)
         full_slug = f"{base_slug}-{weight_slug}"
         
-        uuid_str = f"p0000000-0000-0000-0000-{prod_id_counter:012d}"
+        uuid_str = f"d0000000-0000-0000-0000-{prod_id_counter:012d}"
         desc = f"Premium quality {name} ({weight}) sourced naturally and prepared with care."
         
         original_price = round(price * 1.15, 2) # 15% discount mock
@@ -258,8 +258,9 @@ for item in raw_products:
         # Make some items featured
         is_featured = (prod_id_counter % 15 == 0)
         
+        product_uuid = f"d0000000-0000-0000-0000-{prod_id_counter:012d}"
         ts_products.append({
-            "id": f"p-{prod_id_counter}",
+            "id": product_uuid,
             "category_id": cat_id,
             "name": name,
             "slug": full_slug,

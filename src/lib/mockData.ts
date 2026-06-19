@@ -149,7 +149,7 @@ export const mockCategories: Category[] = [
 
 export const mockProducts: Product[] = [
   {
-    "id": "p-1",
+    "id": "d0000000-0000-0000-0000-000000000001",
     "category_id": "c0000000-0000-0000-0000-000000000001",
     "name": "Virgin Coconut Oil",
     "slug": "virgin-coconut-oil-100ml",
@@ -163,7 +163,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-2",
+    "id": "d0000000-0000-0000-0000-000000000002",
     "category_id": "c0000000-0000-0000-0000-000000000001",
     "name": "Virgin Coconut Oil",
     "slug": "virgin-coconut-oil-250ml",
@@ -177,7 +177,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-3",
+    "id": "d0000000-0000-0000-0000-000000000003",
     "category_id": "c0000000-0000-0000-0000-000000000001",
     "name": "Virgin Coconut Oil",
     "slug": "virgin-coconut-oil-500ml",
@@ -191,7 +191,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-4",
+    "id": "d0000000-0000-0000-0000-000000000004",
     "category_id": "c0000000-0000-0000-0000-000000000001",
     "name": "Virgin Olive Oil",
     "slug": "virgin-olive-oil-100ml",
@@ -205,7 +205,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-5",
+    "id": "d0000000-0000-0000-0000-000000000005",
     "category_id": "c0000000-0000-0000-0000-000000000001",
     "name": "Virgin Olive Oil",
     "slug": "virgin-olive-oil-250ml",
@@ -219,7 +219,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-6",
+    "id": "d0000000-0000-0000-0000-000000000006",
     "category_id": "c0000000-0000-0000-0000-000000000001",
     "name": "Virgin Olive Oil",
     "slug": "virgin-olive-oil-500ml",
@@ -233,7 +233,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-7",
+    "id": "d0000000-0000-0000-0000-000000000007",
     "category_id": "c0000000-0000-0000-0000-000000000001",
     "name": "Coconut Oil",
     "slug": "coconut-oil-100ml",
@@ -247,7 +247,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-8",
+    "id": "d0000000-0000-0000-0000-000000000008",
     "category_id": "c0000000-0000-0000-0000-000000000001",
     "name": "Coconut Oil",
     "slug": "coconut-oil-250ml",
@@ -261,7 +261,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-9",
+    "id": "d0000000-0000-0000-0000-000000000009",
     "category_id": "c0000000-0000-0000-0000-000000000001",
     "name": "Coconut Oil",
     "slug": "coconut-oil-500ml",
@@ -275,7 +275,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-10",
+    "id": "d0000000-0000-0000-0000-000000000010",
     "category_id": "c0000000-0000-0000-0000-000000000001",
     "name": "Coconut Oil",
     "slug": "coconut-oil-1000ml",
@@ -289,7 +289,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-11",
+    "id": "d0000000-0000-0000-0000-000000000011",
     "category_id": "c0000000-0000-0000-0000-000000000001",
     "name": "Groundnut Oil",
     "slug": "groundnut-oil-500ml",
@@ -303,7 +303,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-12",
+    "id": "d0000000-0000-0000-0000-000000000012",
     "category_id": "c0000000-0000-0000-0000-000000000001",
     "name": "Groundnut Oil",
     "slug": "groundnut-oil-1000ml",
@@ -317,7 +317,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-13",
+    "id": "d0000000-0000-0000-0000-000000000013",
     "category_id": "c0000000-0000-0000-0000-000000000001",
     "name": "Gingelly Oil",
     "slug": "gingelly-oil-100ml",
@@ -331,7 +331,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-14",
+    "id": "d0000000-0000-0000-0000-000000000014",
     "category_id": "c0000000-0000-0000-0000-000000000001",
     "name": "Gingelly Oil",
     "slug": "gingelly-oil-250ml",
@@ -345,7 +345,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-15",
+    "id": "d0000000-0000-0000-0000-000000000015",
     "category_id": "c0000000-0000-0000-0000-000000000001",
     "name": "Gingelly Oil",
     "slug": "gingelly-oil-500ml",
@@ -359,7 +359,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-16",
+    "id": "d0000000-0000-0000-0000-000000000016",
     "category_id": "c0000000-0000-0000-0000-000000000001",
     "name": "Gingelly Oil",
     "slug": "gingelly-oil-1000ml",
@@ -373,7 +373,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-17",
+    "id": "d0000000-0000-0000-0000-000000000017",
     "category_id": "c0000000-0000-0000-0000-000000000001",
     "name": "Pomace Olive Oil",
     "slug": "pomace-olive-oil-500ml",
@@ -387,7 +387,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-18",
+    "id": "d0000000-0000-0000-0000-000000000018",
     "category_id": "c0000000-0000-0000-0000-000000000001",
     "name": "Castor Oil",
     "slug": "castor-oil-100ml",
@@ -401,7 +401,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-19",
+    "id": "d0000000-0000-0000-0000-000000000019",
     "category_id": "c0000000-0000-0000-0000-000000000001",
     "name": "Almond Oil",
     "slug": "almond-oil-60ml",
@@ -415,7 +415,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-20",
+    "id": "d0000000-0000-0000-0000-000000000020",
     "category_id": "c0000000-0000-0000-0000-000000000001",
     "name": "Almond Oil",
     "slug": "almond-oil-100ml",
@@ -429,7 +429,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-21",
+    "id": "d0000000-0000-0000-0000-000000000021",
     "category_id": "c0000000-0000-0000-0000-000000000002",
     "name": "Desi Cow Ghee",
     "slug": "desi-cow-ghee-240g",
@@ -443,7 +443,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-22",
+    "id": "d0000000-0000-0000-0000-000000000022",
     "category_id": "c0000000-0000-0000-0000-000000000002",
     "name": "Desi Cow Ghee",
     "slug": "desi-cow-ghee-450g",
@@ -457,7 +457,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-23",
+    "id": "d0000000-0000-0000-0000-000000000023",
     "category_id": "c0000000-0000-0000-0000-000000000002",
     "name": "Desi Cow Ghee",
     "slug": "desi-cow-ghee-1kg",
@@ -471,7 +471,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-24",
+    "id": "d0000000-0000-0000-0000-000000000024",
     "category_id": "c0000000-0000-0000-0000-000000000002",
     "name": "Cow Ghee",
     "slug": "cow-ghee-240g",
@@ -485,7 +485,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-25",
+    "id": "d0000000-0000-0000-0000-000000000025",
     "category_id": "c0000000-0000-0000-0000-000000000002",
     "name": "Cow Ghee",
     "slug": "cow-ghee-450g",
@@ -499,7 +499,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-26",
+    "id": "d0000000-0000-0000-0000-000000000026",
     "category_id": "c0000000-0000-0000-0000-000000000002",
     "name": "Cow Ghee",
     "slug": "cow-ghee-1kg",
@@ -513,7 +513,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-27",
+    "id": "d0000000-0000-0000-0000-000000000027",
     "category_id": "c0000000-0000-0000-0000-000000000003",
     "name": "Rose Petals in Honey",
     "slug": "rose-petals-in-honey-200g",
@@ -527,7 +527,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-28",
+    "id": "d0000000-0000-0000-0000-000000000028",
     "category_id": "c0000000-0000-0000-0000-000000000003",
     "name": "Rose Petals in Honey",
     "slug": "rose-petals-in-honey-500g",
@@ -541,7 +541,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-29",
+    "id": "d0000000-0000-0000-0000-000000000029",
     "category_id": "c0000000-0000-0000-0000-000000000003",
     "name": "Fig in Honey",
     "slug": "fig-in-honey-200g",
@@ -555,7 +555,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-30",
+    "id": "d0000000-0000-0000-0000-000000000030",
     "category_id": "c0000000-0000-0000-0000-000000000003",
     "name": "Mountain Honey",
     "slug": "mountain-honey-250g",
@@ -569,7 +569,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-31",
+    "id": "d0000000-0000-0000-0000-000000000031",
     "category_id": "c0000000-0000-0000-0000-000000000003",
     "name": "Mountain Honey",
     "slug": "mountain-honey-500g",
@@ -583,7 +583,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-32",
+    "id": "d0000000-0000-0000-0000-000000000032",
     "category_id": "c0000000-0000-0000-0000-000000000003",
     "name": "Mountain Honey",
     "slug": "mountain-honey-1kg",
@@ -597,7 +597,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-33",
+    "id": "d0000000-0000-0000-0000-000000000033",
     "category_id": "c0000000-0000-0000-0000-000000000003",
     "name": "Cave Honey",
     "slug": "cave-honey-250g",
@@ -611,7 +611,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-34",
+    "id": "d0000000-0000-0000-0000-000000000034",
     "category_id": "c0000000-0000-0000-0000-000000000003",
     "name": "Cave Honey",
     "slug": "cave-honey-500g",
@@ -625,7 +625,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-35",
+    "id": "d0000000-0000-0000-0000-000000000035",
     "category_id": "c0000000-0000-0000-0000-000000000003",
     "name": "Cave Honey",
     "slug": "cave-honey-1kg",
@@ -639,7 +639,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-36",
+    "id": "d0000000-0000-0000-0000-000000000036",
     "category_id": "c0000000-0000-0000-0000-000000000003",
     "name": "Kombu Honey",
     "slug": "kombu-honey-250g",
@@ -653,7 +653,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-37",
+    "id": "d0000000-0000-0000-0000-000000000037",
     "category_id": "c0000000-0000-0000-0000-000000000003",
     "name": "Kombu Honey",
     "slug": "kombu-honey-500g",
@@ -667,7 +667,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-38",
+    "id": "d0000000-0000-0000-0000-000000000038",
     "category_id": "c0000000-0000-0000-0000-000000000003",
     "name": "Kombu Honey",
     "slug": "kombu-honey-1kg",
@@ -681,7 +681,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-39",
+    "id": "d0000000-0000-0000-0000-000000000039",
     "category_id": "c0000000-0000-0000-0000-000000000003",
     "name": "Siru Honey",
     "slug": "siru-honey-250g",
@@ -695,7 +695,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-40",
+    "id": "d0000000-0000-0000-0000-000000000040",
     "category_id": "c0000000-0000-0000-0000-000000000003",
     "name": "Siru Honey",
     "slug": "siru-honey-500g",
@@ -709,7 +709,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-41",
+    "id": "d0000000-0000-0000-0000-000000000041",
     "category_id": "c0000000-0000-0000-0000-000000000003",
     "name": "Siru Honey",
     "slug": "siru-honey-1kg",
@@ -723,7 +723,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-42",
+    "id": "d0000000-0000-0000-0000-000000000042",
     "category_id": "c0000000-0000-0000-0000-000000000004",
     "name": "Cane Sugar",
     "slug": "cane-sugar-1kg",
@@ -737,7 +737,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-43",
+    "id": "d0000000-0000-0000-0000-000000000043",
     "category_id": "c0000000-0000-0000-0000-000000000004",
     "name": "Palm Sugar",
     "slug": "palm-sugar-500g",
@@ -751,7 +751,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-44",
+    "id": "d0000000-0000-0000-0000-000000000044",
     "category_id": "c0000000-0000-0000-0000-000000000004",
     "name": "Coconut Sugar",
     "slug": "coconut-sugar-500g",
@@ -765,7 +765,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-45",
+    "id": "d0000000-0000-0000-0000-000000000045",
     "category_id": "c0000000-0000-0000-0000-000000000004",
     "name": "Palm Jaggery Cubes",
     "slug": "palm-jaggery-cubes-500g",
@@ -779,7 +779,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-46",
+    "id": "d0000000-0000-0000-0000-000000000046",
     "category_id": "c0000000-0000-0000-0000-000000000005",
     "name": "Jack Fruit & Millet Cookie",
     "slug": "jack-fruit-millet-cookie-100g",
@@ -793,7 +793,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-47",
+    "id": "d0000000-0000-0000-0000-000000000047",
     "category_id": "c0000000-0000-0000-0000-000000000005",
     "name": "Multigrain Cookie",
     "slug": "multigrain-cookie-100g",
@@ -807,7 +807,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-48",
+    "id": "d0000000-0000-0000-0000-000000000048",
     "category_id": "c0000000-0000-0000-0000-000000000005",
     "name": "Foxtail Millet Cookie",
     "slug": "foxtail-millet-cookie-100g",
@@ -821,7 +821,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-49",
+    "id": "d0000000-0000-0000-0000-000000000049",
     "category_id": "c0000000-0000-0000-0000-000000000005",
     "name": "Pearl Millet Cookie",
     "slug": "pearl-millet-cookie-100g",
@@ -835,7 +835,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-50",
+    "id": "d0000000-0000-0000-0000-000000000050",
     "category_id": "c0000000-0000-0000-0000-000000000006",
     "name": "Millet Muesli",
     "slug": "millet-muesli-250g",
@@ -849,7 +849,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-51",
+    "id": "d0000000-0000-0000-0000-000000000051",
     "category_id": "c0000000-0000-0000-0000-000000000006",
     "name": "Sprouted Multigrain Energy Ladoos",
     "slug": "sprouted-multigrain-energy-ladoos-250g",
@@ -863,7 +863,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-52",
+    "id": "d0000000-0000-0000-0000-000000000052",
     "category_id": "c0000000-0000-0000-0000-000000000006",
     "name": "Crunchy Energy Bars (Moringa)",
     "slug": "crunchy-energy-bars-moringa-5-nos",
@@ -877,7 +877,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-53",
+    "id": "d0000000-0000-0000-0000-000000000053",
     "category_id": "c0000000-0000-0000-0000-000000000006",
     "name": "Crunchy Energy Bars (Moringa)",
     "slug": "crunchy-energy-bars-moringa-10-nos",
@@ -891,7 +891,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-54",
+    "id": "d0000000-0000-0000-0000-000000000054",
     "category_id": "c0000000-0000-0000-0000-000000000006",
     "name": "Multigrain Health Mix",
     "slug": "multigrain-health-mix-250g",
@@ -905,7 +905,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-55",
+    "id": "d0000000-0000-0000-0000-000000000055",
     "category_id": "c0000000-0000-0000-0000-000000000006",
     "name": "ABCD Powder",
     "slug": "abcd-powder-200g",
@@ -919,7 +919,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-56",
+    "id": "d0000000-0000-0000-0000-000000000056",
     "category_id": "c0000000-0000-0000-0000-000000000006",
     "name": "Dates Powder",
     "slug": "dates-powder-200g",
@@ -933,7 +933,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-57",
+    "id": "d0000000-0000-0000-0000-000000000057",
     "category_id": "c0000000-0000-0000-0000-000000000006",
     "name": "Coco D'lite",
     "slug": "coco-d-lite-250g",
@@ -947,7 +947,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-58",
+    "id": "d0000000-0000-0000-0000-000000000058",
     "category_id": "c0000000-0000-0000-0000-000000000006",
     "name": "Sukkumalli Coffee",
     "slug": "sukkumalli-coffee-250g",
@@ -961,7 +961,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-59",
+    "id": "d0000000-0000-0000-0000-000000000059",
     "category_id": "c0000000-0000-0000-0000-000000000007",
     "name": "Honey Amla",
     "slug": "honey-amla-6-nos",
@@ -975,7 +975,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-60",
+    "id": "d0000000-0000-0000-0000-000000000060",
     "category_id": "c0000000-0000-0000-0000-000000000007",
     "name": "Avir Detox",
     "slug": "avir-detox-250g",
@@ -989,7 +989,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-61",
+    "id": "d0000000-0000-0000-0000-000000000061",
     "category_id": "c0000000-0000-0000-0000-000000000007",
     "name": "Thirta Blend Lemon & Ginger",
     "slug": "thirta-blend-lemon-ginger-500ml",
@@ -1003,7 +1003,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-62",
+    "id": "d0000000-0000-0000-0000-000000000062",
     "category_id": "c0000000-0000-0000-0000-000000000007",
     "name": "Sprouted Ragi Flour Porridge",
     "slug": "sprouted-ragi-flour-porridge-250g",
@@ -1017,7 +1017,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-63",
+    "id": "d0000000-0000-0000-0000-000000000063",
     "category_id": "c0000000-0000-0000-0000-000000000007",
     "name": "Ragi Coffee",
     "slug": "ragi-coffee-250g",
@@ -1031,7 +1031,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-64",
+    "id": "d0000000-0000-0000-0000-000000000064",
     "category_id": "c0000000-0000-0000-0000-000000000008",
     "name": "Turmeric Powder",
     "slug": "turmeric-powder-150g",
@@ -1045,7 +1045,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-65",
+    "id": "d0000000-0000-0000-0000-000000000065",
     "category_id": "c0000000-0000-0000-0000-000000000008",
     "name": "Turmeric Powder",
     "slug": "turmeric-powder-250g",
@@ -1059,7 +1059,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-66",
+    "id": "d0000000-0000-0000-0000-000000000066",
     "category_id": "c0000000-0000-0000-0000-000000000008",
     "name": "Turmeric Powder",
     "slug": "turmeric-powder-500g",
@@ -1073,7 +1073,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-67",
+    "id": "d0000000-0000-0000-0000-000000000067",
     "category_id": "c0000000-0000-0000-0000-000000000008",
     "name": "Tamarind",
     "slug": "tamarind-250g",
@@ -1087,7 +1087,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-68",
+    "id": "d0000000-0000-0000-0000-000000000068",
     "category_id": "c0000000-0000-0000-0000-000000000008",
     "name": "Himalayan Pink Salt",
     "slug": "himalayan-pink-salt-1kg",
@@ -1101,7 +1101,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-69",
+    "id": "d0000000-0000-0000-0000-000000000069",
     "category_id": "c0000000-0000-0000-0000-000000000009",
     "name": "Citron Pickle",
     "slug": "citron-pickle-200g",
@@ -1115,7 +1115,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-70",
+    "id": "d0000000-0000-0000-0000-000000000070",
     "category_id": "c0000000-0000-0000-0000-000000000009",
     "name": "Mango Pickle",
     "slug": "mango-pickle-200g",
@@ -1129,7 +1129,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-71",
+    "id": "d0000000-0000-0000-0000-000000000071",
     "category_id": "c0000000-0000-0000-0000-000000000009",
     "name": "Tomato Thokku",
     "slug": "tomato-thokku-200g",
@@ -1143,7 +1143,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-72",
+    "id": "d0000000-0000-0000-0000-000000000072",
     "category_id": "c0000000-0000-0000-0000-000000000009",
     "name": "Lemon Pickle",
     "slug": "lemon-pickle-200g",
@@ -1157,7 +1157,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-73",
+    "id": "d0000000-0000-0000-0000-000000000073",
     "category_id": "c0000000-0000-0000-0000-000000000009",
     "name": "Onion Thokku",
     "slug": "onion-thokku-200g",
@@ -1171,7 +1171,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-74",
+    "id": "d0000000-0000-0000-0000-000000000074",
     "category_id": "c0000000-0000-0000-0000-000000000009",
     "name": "Vatha Kuzhambu Paste",
     "slug": "vatha-kuzhambu-paste-200g",
@@ -1185,7 +1185,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-75",
+    "id": "d0000000-0000-0000-0000-000000000075",
     "category_id": "c0000000-0000-0000-0000-000000000009",
     "name": "Pulihora Paste",
     "slug": "pulihora-paste-200g",
@@ -1199,7 +1199,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-76",
+    "id": "d0000000-0000-0000-0000-000000000076",
     "category_id": "c0000000-0000-0000-0000-000000000009",
     "name": "Garlic Pickle",
     "slug": "garlic-pickle-200g",
@@ -1213,7 +1213,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-77",
+    "id": "d0000000-0000-0000-0000-000000000077",
     "category_id": "c0000000-0000-0000-0000-000000000010",
     "name": "Apple Cinnamon Tea",
     "slug": "apple-cinnamon-tea-5-nos",
@@ -1227,7 +1227,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-78",
+    "id": "d0000000-0000-0000-0000-000000000078",
     "category_id": "c0000000-0000-0000-0000-000000000010",
     "name": "Apple Cinnamon Tea",
     "slug": "apple-cinnamon-tea-12-nos",
@@ -1241,7 +1241,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-79",
+    "id": "d0000000-0000-0000-0000-000000000079",
     "category_id": "c0000000-0000-0000-0000-000000000010",
     "name": "Lemongrass Tea",
     "slug": "lemongrass-tea-5-nos",
@@ -1255,7 +1255,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-80",
+    "id": "d0000000-0000-0000-0000-000000000080",
     "category_id": "c0000000-0000-0000-0000-000000000010",
     "name": "Lemongrass Tea",
     "slug": "lemongrass-tea-12-nos",
@@ -1269,7 +1269,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-81",
+    "id": "d0000000-0000-0000-0000-000000000081",
     "category_id": "c0000000-0000-0000-0000-000000000010",
     "name": "Peppermint Tea",
     "slug": "peppermint-tea-5-nos",
@@ -1283,7 +1283,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-82",
+    "id": "d0000000-0000-0000-0000-000000000082",
     "category_id": "c0000000-0000-0000-0000-000000000010",
     "name": "Peppermint Tea",
     "slug": "peppermint-tea-12-nos",
@@ -1297,7 +1297,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-83",
+    "id": "d0000000-0000-0000-0000-000000000083",
     "category_id": "c0000000-0000-0000-0000-000000000010",
     "name": "Fruit Tea",
     "slug": "fruit-tea-5-nos",
@@ -1311,7 +1311,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-84",
+    "id": "d0000000-0000-0000-0000-000000000084",
     "category_id": "c0000000-0000-0000-0000-000000000010",
     "name": "Fruit Tea",
     "slug": "fruit-tea-12-nos",
@@ -1325,7 +1325,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-85",
+    "id": "d0000000-0000-0000-0000-000000000085",
     "category_id": "c0000000-0000-0000-0000-000000000010",
     "name": "Ginger Lemon Tea",
     "slug": "ginger-lemon-tea-5-nos",
@@ -1339,7 +1339,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-86",
+    "id": "d0000000-0000-0000-0000-000000000086",
     "category_id": "c0000000-0000-0000-0000-000000000010",
     "name": "Ginger Lemon Tea",
     "slug": "ginger-lemon-tea-12-nos",
@@ -1353,7 +1353,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-87",
+    "id": "d0000000-0000-0000-0000-000000000087",
     "category_id": "c0000000-0000-0000-0000-000000000010",
     "name": "Turmeric Cinnamon Tea",
     "slug": "turmeric-cinnamon-tea-5-nos",
@@ -1367,7 +1367,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-88",
+    "id": "d0000000-0000-0000-0000-000000000088",
     "category_id": "c0000000-0000-0000-0000-000000000010",
     "name": "Turmeric Cinnamon Tea",
     "slug": "turmeric-cinnamon-tea-12-nos",
@@ -1381,7 +1381,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-89",
+    "id": "d0000000-0000-0000-0000-000000000089",
     "category_id": "c0000000-0000-0000-0000-000000000010",
     "name": "Fennel Tea",
     "slug": "fennel-tea-5-nos",
@@ -1395,7 +1395,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-90",
+    "id": "d0000000-0000-0000-0000-000000000090",
     "category_id": "c0000000-0000-0000-0000-000000000010",
     "name": "Fennel Tea",
     "slug": "fennel-tea-12-nos",
@@ -1409,7 +1409,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-91",
+    "id": "d0000000-0000-0000-0000-000000000091",
     "category_id": "c0000000-0000-0000-0000-000000000011",
     "name": "Hibiscus Flower",
     "slug": "hibiscus-flower-20g",
@@ -1423,7 +1423,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-92",
+    "id": "d0000000-0000-0000-0000-000000000092",
     "category_id": "c0000000-0000-0000-0000-000000000011",
     "name": "Blue Pea",
     "slug": "blue-pea-20g",
@@ -1437,7 +1437,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-93",
+    "id": "d0000000-0000-0000-0000-000000000093",
     "category_id": "c0000000-0000-0000-0000-000000000011",
     "name": "Aavaram Poo",
     "slug": "aavaram-poo-20g",
@@ -1451,7 +1451,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-94",
+    "id": "d0000000-0000-0000-0000-000000000094",
     "category_id": "c0000000-0000-0000-0000-000000000011",
     "name": "Strobilanthes (PB) Leaves",
     "slug": "strobilanthes-pb-leaves-50g",
@@ -1465,7 +1465,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-95",
+    "id": "d0000000-0000-0000-0000-000000000095",
     "category_id": "c0000000-0000-0000-0000-000000000012",
     "name": "Jeeraga Samba",
     "slug": "jeeraga-samba-1kg",
@@ -1479,7 +1479,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-96",
+    "id": "d0000000-0000-0000-0000-000000000096",
     "category_id": "c0000000-0000-0000-0000-000000000012",
     "name": "Mappillai Samba",
     "slug": "mappillai-samba-1kg",
@@ -1493,7 +1493,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-97",
+    "id": "d0000000-0000-0000-0000-000000000097",
     "category_id": "c0000000-0000-0000-0000-000000000012",
     "name": "Red (Sivappu) Kavuni",
     "slug": "red-sivappu-kavuni-1kg",
@@ -1507,7 +1507,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-98",
+    "id": "d0000000-0000-0000-0000-000000000098",
     "category_id": "c0000000-0000-0000-0000-000000000012",
     "name": "grAma Rice",
     "slug": "grama-rice-1kg",
@@ -1521,7 +1521,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-99",
+    "id": "d0000000-0000-0000-0000-000000000099",
     "category_id": "c0000000-0000-0000-0000-000000000012",
     "name": "Parboiled Rice",
     "slug": "parboiled-rice-1kg",
@@ -1535,7 +1535,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-100",
+    "id": "d0000000-0000-0000-0000-000000000100",
     "category_id": "c0000000-0000-0000-0000-000000000012",
     "name": "Broken Parboiled Rice",
     "slug": "broken-parboiled-rice-1kg",
@@ -1549,7 +1549,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-101",
+    "id": "d0000000-0000-0000-0000-000000000101",
     "category_id": "c0000000-0000-0000-0000-000000000012",
     "name": "Black Kavuni",
     "slug": "black-kavuni-1kg",
@@ -1563,7 +1563,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-102",
+    "id": "d0000000-0000-0000-0000-000000000102",
     "category_id": "c0000000-0000-0000-0000-000000000012",
     "name": "Kerala Mattai",
     "slug": "kerala-mattai-1kg",
@@ -1577,7 +1577,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-103",
+    "id": "d0000000-0000-0000-0000-000000000103",
     "category_id": "c0000000-0000-0000-0000-000000000012",
     "name": "Karung Kuruvai Rice",
     "slug": "karung-kuruvai-rice-1kg",
@@ -1591,7 +1591,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-104",
+    "id": "d0000000-0000-0000-0000-000000000104",
     "category_id": "c0000000-0000-0000-0000-000000000013",
     "name": "Little Millet",
     "slug": "little-millet-1kg",
@@ -1605,7 +1605,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-105",
+    "id": "d0000000-0000-0000-0000-000000000105",
     "category_id": "c0000000-0000-0000-0000-000000000013",
     "name": "Kodo Millet",
     "slug": "kodo-millet-1kg",
@@ -1619,7 +1619,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-106",
+    "id": "d0000000-0000-0000-0000-000000000106",
     "category_id": "c0000000-0000-0000-0000-000000000013",
     "name": "Foxtail Millet",
     "slug": "foxtail-millet-1kg",
@@ -1633,7 +1633,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-107",
+    "id": "d0000000-0000-0000-0000-000000000107",
     "category_id": "c0000000-0000-0000-0000-000000000013",
     "name": "Finger Millet",
     "slug": "finger-millet-1kg",
@@ -1647,7 +1647,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-108",
+    "id": "d0000000-0000-0000-0000-000000000108",
     "category_id": "c0000000-0000-0000-0000-000000000013",
     "name": "Country Pearl Millet",
     "slug": "country-pearl-millet-1kg",
@@ -1661,7 +1661,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-109",
+    "id": "d0000000-0000-0000-0000-000000000109",
     "category_id": "c0000000-0000-0000-0000-000000000013",
     "name": "Black Gram Deskinned",
     "slug": "black-gram-deskinned-1kg",
@@ -1675,7 +1675,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-110",
+    "id": "d0000000-0000-0000-0000-000000000110",
     "category_id": "c0000000-0000-0000-0000-000000000013",
     "name": "Yellow Lentil",
     "slug": "yellow-lentil-1kg",
@@ -1689,7 +1689,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-111",
+    "id": "d0000000-0000-0000-0000-000000000111",
     "category_id": "c0000000-0000-0000-0000-000000000013",
     "name": "Barnyard Millet",
     "slug": "barnyard-millet-1kg",
@@ -1703,7 +1703,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-112",
+    "id": "d0000000-0000-0000-0000-000000000112",
     "category_id": "c0000000-0000-0000-0000-000000000013",
     "name": "Green Gram Whole",
     "slug": "green-gram-whole-1kg",
@@ -1717,7 +1717,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-113",
+    "id": "d0000000-0000-0000-0000-000000000113",
     "category_id": "c0000000-0000-0000-0000-000000000013",
     "name": "Green Gram Broken",
     "slug": "green-gram-broken-1kg",
@@ -1731,7 +1731,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-114",
+    "id": "d0000000-0000-0000-0000-000000000114",
     "category_id": "c0000000-0000-0000-0000-000000000014",
     "name": "Herbal Bath Powder",
     "slug": "herbal-bath-powder-250g",
@@ -1745,7 +1745,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-115",
+    "id": "d0000000-0000-0000-0000-000000000115",
     "category_id": "c0000000-0000-0000-0000-000000000014",
     "name": "Multani Mitti Powder",
     "slug": "multani-mitti-powder-250g",
@@ -1759,7 +1759,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-116",
+    "id": "d0000000-0000-0000-0000-000000000116",
     "category_id": "c0000000-0000-0000-0000-000000000014",
     "name": "Therapeutic Mud",
     "slug": "therapeutic-mud-250g",
@@ -1773,7 +1773,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-117",
+    "id": "d0000000-0000-0000-0000-000000000117",
     "category_id": "c0000000-0000-0000-0000-000000000014",
     "name": "Shikakai Powder",
     "slug": "shikakai-powder-250g",
@@ -1787,7 +1787,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-118",
+    "id": "d0000000-0000-0000-0000-000000000118",
     "category_id": "c0000000-0000-0000-0000-000000000014",
     "name": "Oil Cake Tree Powder",
     "slug": "oil-cake-tree-powder-250g",
@@ -1801,7 +1801,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-119",
+    "id": "d0000000-0000-0000-0000-000000000119",
     "category_id": "c0000000-0000-0000-0000-000000000014",
     "name": "Herbal Skin Care Powder",
     "slug": "herbal-skin-care-powder-250g",
@@ -1815,7 +1815,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-120",
+    "id": "d0000000-0000-0000-0000-000000000120",
     "category_id": "c0000000-0000-0000-0000-000000000014",
     "name": "Moringa Beauty Drops",
     "slug": "moringa-beauty-drops-30ml",
@@ -1829,7 +1829,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-121",
+    "id": "d0000000-0000-0000-0000-000000000121",
     "category_id": "c0000000-0000-0000-0000-000000000014",
     "name": "Moringa Beauty Drops",
     "slug": "moringa-beauty-drops-100ml",
@@ -1843,7 +1843,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-122",
+    "id": "d0000000-0000-0000-0000-000000000122",
     "category_id": "c0000000-0000-0000-0000-000000000014",
     "name": "Hair Care Oil",
     "slug": "hair-care-oil-100ml",
@@ -1857,7 +1857,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-123",
+    "id": "d0000000-0000-0000-0000-000000000123",
     "category_id": "c0000000-0000-0000-0000-000000000015",
     "name": "Rosemary Oil",
     "slug": "rosemary-oil-30ml",
@@ -1871,7 +1871,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-124",
+    "id": "d0000000-0000-0000-0000-000000000124",
     "category_id": "c0000000-0000-0000-0000-000000000015",
     "name": "Curcumin Oil",
     "slug": "curcumin-oil-30ml",
@@ -1885,7 +1885,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-125",
+    "id": "d0000000-0000-0000-0000-000000000125",
     "category_id": "c0000000-0000-0000-0000-000000000015",
     "name": "Nochi (Mustard Oil) Pain Relief",
     "slug": "nochi-mustard-oil-pain-relief-200ml",
@@ -1899,7 +1899,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-126",
+    "id": "d0000000-0000-0000-0000-000000000126",
     "category_id": "c0000000-0000-0000-0000-000000000015",
     "name": "Kuppaimeni Oil",
     "slug": "kuppaimeni-oil-200ml",
@@ -1913,7 +1913,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-127",
+    "id": "d0000000-0000-0000-0000-000000000127",
     "category_id": "c0000000-0000-0000-0000-000000000015",
     "name": "Eucalyptus Oil",
     "slug": "eucalyptus-oil-30ml",
@@ -1927,7 +1927,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-128",
+    "id": "d0000000-0000-0000-0000-000000000128",
     "category_id": "c0000000-0000-0000-0000-000000000015",
     "name": "Lemongrass Oil",
     "slug": "lemongrass-oil-30ml",
@@ -1941,7 +1941,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-129",
+    "id": "d0000000-0000-0000-0000-000000000129",
     "category_id": "c0000000-0000-0000-0000-000000000015",
     "name": "Three Plus Oil",
     "slug": "three-plus-oil-200ml",
@@ -1955,7 +1955,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-130",
+    "id": "d0000000-0000-0000-0000-000000000130",
     "category_id": "c0000000-0000-0000-0000-000000000015",
     "name": "Apple Cider Vinegar",
     "slug": "apple-cider-vinegar-100ml",
@@ -1969,7 +1969,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-131",
+    "id": "d0000000-0000-0000-0000-000000000131",
     "category_id": "c0000000-0000-0000-0000-000000000016",
     "name": "Enema Can",
     "slug": "enema-can-1-no",
@@ -1983,7 +1983,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-132",
+    "id": "d0000000-0000-0000-0000-000000000132",
     "category_id": "c0000000-0000-0000-0000-000000000016",
     "name": "Nasal Wash Bottle",
     "slug": "nasal-wash-bottle-1-no",
@@ -1997,7 +1997,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-133",
+    "id": "d0000000-0000-0000-0000-000000000133",
     "category_id": "c0000000-0000-0000-0000-000000000016",
     "name": "Eye Wash Cup",
     "slug": "eye-wash-cup-2-nos",
@@ -2011,7 +2011,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-134",
+    "id": "d0000000-0000-0000-0000-000000000134",
     "category_id": "c0000000-0000-0000-0000-000000000016",
     "name": "Bamboo Tooth Brush",
     "slug": "bamboo-tooth-brush-3-nos",
@@ -2025,7 +2025,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-135",
+    "id": "d0000000-0000-0000-0000-000000000135",
     "category_id": "c0000000-0000-0000-0000-000000000016",
     "name": "Herbal Tooth Powder",
     "slug": "herbal-tooth-powder-60g",
@@ -2039,7 +2039,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-136",
+    "id": "d0000000-0000-0000-0000-000000000136",
     "category_id": "c0000000-0000-0000-0000-000000000016",
     "name": "Sanitary Napkin",
     "slug": "sanitary-napkin-m",
@@ -2053,7 +2053,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-137",
+    "id": "d0000000-0000-0000-0000-000000000137",
     "category_id": "c0000000-0000-0000-0000-000000000016",
     "name": "Sanitary Napkin",
     "slug": "sanitary-napkin-l",
@@ -2067,7 +2067,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-138",
+    "id": "d0000000-0000-0000-0000-000000000138",
     "category_id": "c0000000-0000-0000-0000-000000000016",
     "name": "Sanitary Napkin",
     "slug": "sanitary-napkin-xl",
@@ -2081,7 +2081,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-139",
+    "id": "d0000000-0000-0000-0000-000000000139",
     "category_id": "c0000000-0000-0000-0000-000000000016",
     "name": "Moringa Leaf Tablet",
     "slug": "moringa-leaf-tablet-100-nos",
@@ -2095,7 +2095,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-140",
+    "id": "d0000000-0000-0000-0000-000000000140",
     "category_id": "c0000000-0000-0000-0000-000000000017",
     "name": "Rose with Aloe Vera Soap",
     "slug": "rose-with-aloe-vera-soap-100g",
@@ -2109,7 +2109,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-141",
+    "id": "d0000000-0000-0000-0000-000000000141",
     "category_id": "c0000000-0000-0000-0000-000000000017",
     "name": "Kuppaimeni Soap",
     "slug": "kuppaimeni-soap-100g",
@@ -2123,7 +2123,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-142",
+    "id": "d0000000-0000-0000-0000-000000000142",
     "category_id": "c0000000-0000-0000-0000-000000000017",
     "name": "Jasmine with Coconut Milk Soap",
     "slug": "jasmine-with-coconut-milk-soap-100g",
@@ -2137,7 +2137,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-143",
+    "id": "d0000000-0000-0000-0000-000000000143",
     "category_id": "c0000000-0000-0000-0000-000000000018",
     "name": "Incense Sticks (Rose)",
     "slug": "incense-sticks-rose-30-nos",
@@ -2151,7 +2151,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-144",
+    "id": "d0000000-0000-0000-0000-000000000144",
     "category_id": "c0000000-0000-0000-0000-000000000018",
     "name": "Incense Sticks (Herbal)",
     "slug": "incense-sticks-herbal-30-nos",
@@ -2165,7 +2165,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-145",
+    "id": "d0000000-0000-0000-0000-000000000145",
     "category_id": "c0000000-0000-0000-0000-000000000018",
     "name": "Incense Sticks (Champak, Lavender & Sandal)",
     "slug": "incense-sticks-champak-lavender-sandal-30-nos",
@@ -2179,7 +2179,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-146",
+    "id": "d0000000-0000-0000-0000-000000000146",
     "category_id": "c0000000-0000-0000-0000-000000000018",
     "name": "Incense Cones (Jasmine)",
     "slug": "incense-cones-jasmine-30-nos",
@@ -2193,7 +2193,7 @@ export const mockProducts: Product[] = [
     "created_at": "2026-06-15T12:00:00Z"
   },
   {
-    "id": "p-147",
+    "id": "d0000000-0000-0000-0000-000000000147",
     "category_id": "c0000000-0000-0000-0000-000000000018",
     "name": "Sambirani Dhoop",
     "slug": "sambirani-dhoop-12-nos",
