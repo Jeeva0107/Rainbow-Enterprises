@@ -1,7 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
-import Image from 'next/image';
+import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { Star, ShoppingCart, Leaf } from 'lucide-react';
 import { Product } from '@/lib/supabase';
@@ -27,12 +26,36 @@ export function ProductCard({ product, variants = [] }: ProductCardProps) {
     : [product];
 
   const [activeVariant, setActiveVariant] = useState<Product>(product);
+  const [hoveredImageIndex, setHoveredImageIndex] = useState(0);
+  const [isHovering, setIsHovering] = useState(false);
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   useEffect(() => {
     // Find matching variant if the product changes
     const matchingVariant = allVariants.find(v => v.id === product.id) || allVariants[0] || product;
     setActiveVariant(matchingVariant);
   }, [product]);
+
+  // Cycle through images on hover
+  useEffect(() => {
+    const images = activeVariant.images;
+    if (isHovering && images && images.length > 1) {
+      intervalRef.current = setInterval(() => {
+        setHoveredImageIndex(prev => (prev + 1) % images.length);
+      }, 800);
+    } else {
+      if (intervalRef.current) clearInterval(intervalRef.current);
+      setHoveredImageIndex(0);
+    }
+    return () => {
+      if (intervalRef.current) clearInterval(intervalRef.current);
+    };
+  }, [isHovering, activeVariant]);
+
+  // Reset image index when variant changes
+  useEffect(() => {
+    setHoveredImageIndex(0);
+  }, [activeVariant]);
 
   const handleAddToCart = (e: React.MouseEvent) => {
     e.preventDefault(); // Prevent navigating to detail page
@@ -47,6 +70,14 @@ export function ProductCard({ product, variants = [] }: ProductCardProps) {
     ? Math.round(((activeVariant.original_price - activeVariant.price) / activeVariant.original_price) * 100)
     : 0;
 
+  // Determine which image to display
+  const displayImages = activeVariant.images && activeVariant.images.length > 0
+    ? activeVariant.images
+    : activeVariant.image_url
+      ? [activeVariant.image_url]
+      : [];
+  const currentImage = displayImages[hoveredImageIndex] || displayImages[0] || '';
+
   return (
     <div className="group relative bg-card border border-border rounded-2xl overflow-hidden hover:shadow-xl hover:border-primary/20 transition-all duration-300 flex flex-col h-full">
       {/* Discount Badge */}
@@ -56,16 +87,51 @@ export function ProductCard({ product, variants = [] }: ProductCardProps) {
         </span>
       )}
 
-      {/* Product Image / Text Fallback Card */}
-      {activeVariant.image_url ? (
-        <Link href={`/shop/${activeVariant.slug}`} className="relative w-full pt-[100%] bg-muted block overflow-hidden">
-          <Image
-            src={activeVariant.image_url}
-            alt={activeVariant.name}
-            fill
-            className="object-cover group-hover:scale-105 transition-transform duration-500"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          />
+      {/* Multi-angle count badge */}
+      {displayImages.length > 1 && (
+        <span className="absolute top-3 right-3 bg-black/50 text-white text-[10px] font-bold px-2 py-0.5 rounded-full z-10 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          {hoveredImageIndex + 1}/{displayImages.length}
+        </span>
+      )}
+
+      {/* Product Image */}
+      {currentImage ? (
+        <Link
+          href={`/shop/${activeVariant.slug}`}
+          className="relative w-full pt-[100%] bg-muted block overflow-hidden"
+          onMouseEnter={() => setIsHovering(true)}
+          onMouseLeave={() => setIsHovering(false)}
+        >
+          {/* Render all images stacked, show only currentImage */}
+          {displayImages.map((img, idx) => (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              key={img}
+              src={img}
+              alt={`${activeVariant.name} - view ${idx + 1}`}
+              className={`absolute inset-0 w-full h-full object-cover transition-all duration-500 ${
+                idx === hoveredImageIndex
+                  ? 'opacity-100 scale-105'
+                  : 'opacity-0 scale-100'
+              }`}
+            />
+          ))}
+
+          {/* Dot indicators for multiple images */}
+          {displayImages.length > 1 && (
+            <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
+              {displayImages.map((_, idx) => (
+                <span
+                  key={idx}
+                  className={`block rounded-full transition-all duration-300 ${
+                    idx === hoveredImageIndex
+                      ? 'w-4 h-1.5 bg-white'
+                      : 'w-1.5 h-1.5 bg-white/50'
+                  }`}
+                />
+              ))}
+            </div>
+          )}
         </Link>
       ) : (
         <Link href={`/shop/${activeVariant.slug}`} className="relative w-full pt-[100%] bg-gradient-to-br from-[#1e3b26]/5 to-[#b08953]/10 block overflow-hidden border-b border-border">

@@ -39,6 +39,11 @@
   /* Custom gradients for glassmorphism */
   --glass-bg: rgba(254, 253, 250, 0.7);
   --glass-border: rgba(47, 37, 30, 0.08);
+
+  /* Fallback fonts for offline build support */
+  --font-inter: 'Inter';
+  --font-outfit: 'Outfit';
+  --font-playfair: 'Playfair Display';
 }
 
 .dark {

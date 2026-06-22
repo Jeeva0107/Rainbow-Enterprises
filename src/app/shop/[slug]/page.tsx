@@ -6,6 +6,7 @@ import { Star, ShieldCheck, Heart, ArrowLeft, RefreshCw, Truck, Leaf } from 'luc
 import { getProductBySlug, getProducts } from '@/lib/mockData';
 import { PurchaseControls } from '@/components/shop/PurchaseControls';
 import { ProductCard } from '@/components/shop/ProductCard';
+import { ProductImageGallery } from '@/components/shop/ProductImageGallery';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -40,37 +41,17 @@ export default async function ProductDetailPage({ params }: PageProps) {
 
       {/* Product Details Columns */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-        {/* Left: Product Image */}
-        <div className="lg:col-span-5 space-y-4">
-          <div className="relative pt-[100%] bg-muted rounded-3xl overflow-hidden border border-border group shadow-md select-none">
-            {product.image_url ? (
-              <Image
-                src={product.image_url}
-                alt={product.name}
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
-                priority
-                sizes="(max-width: 1024px) 100vw, 40vw"
-              />
-            ) : (
-              <div className="absolute inset-0 bg-gradient-to-br from-[#1e3b26]/5 to-[#b08953]/10 flex flex-col items-center justify-center p-8 text-center">
-                <div className="w-20 h-20 rounded-full bg-[#1e3b26]/10 flex items-center justify-center text-[#1e3b26] mb-4 group-hover:scale-110 transition-all duration-300">
-                  <Leaf className="h-10 w-10" />
-                </div>
-                <span className="text-xs font-black tracking-widest text-[#b08953] uppercase leading-none">
-                  100% Organic Sourced
-                </span>
-                <span className="text-sm font-extrabold text-[#1e3b26]/60 mt-2 uppercase">
-                  Traditional Quality
-                </span>
-              </div>
-            )}
-            {discount > 0 && (
-              <span className="absolute top-4 left-4 bg-secondary text-secondary-foreground text-xs font-black px-3 py-1.5 rounded-full shadow-sm">
-                {discount}% OFF
-              </span>
-            )}
-          </div>
+        {/* Left: Product Image Gallery */}
+        <div className="lg:col-span-5 relative">
+          <ProductImageGallery
+            images={product.images && product.images.length > 0 ? product.images : (product.image_url ? [product.image_url] : [])}
+            name={product.name}
+          />
+          {discount > 0 && (
+            <span className="absolute top-4 left-4 bg-secondary text-secondary-foreground text-xs font-black px-3 py-1.5 rounded-full shadow-sm z-10">
+              {discount}% OFF
+            </span>
+          )}
         </div>
 
         {/* Right: Product Purchase Options & Details */}

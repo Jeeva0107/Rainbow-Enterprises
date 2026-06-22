@@ -23,6 +23,7 @@ export interface Product {
   stock: number;
   is_featured: boolean;
   image_url: string;
+  images?: string[];
   created_at: string;
 }
 
