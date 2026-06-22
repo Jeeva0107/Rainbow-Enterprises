@@ -31,11 +31,11 @@ export function PurchaseControls({ product }: PurchaseControlsProps) {
     <div className="space-y-6">
       {/* Quantity Selector & Add Button */}
       <div className="flex flex-col sm:flex-row gap-4 items-stretch">
-        <div className="flex items-center justify-between border border-border rounded-xl px-4 py-2 bg-muted/20 sm:w-36">
-          <span className="text-xs font-bold uppercase tracking-wider text-muted-foreground mr-4">
+        <div className="flex items-center justify-between border border-border rounded-xl px-3 py-2 bg-muted/20 sm:w-40">
+          <span className="text-xs font-bold uppercase tracking-wider text-muted-foreground mr-2">
             Qty
           </span>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3">
             <button
               onClick={handleDecrement}
               disabled={quantity <= 1}
